@@ -81,3 +81,5 @@ def main_function():
         await client.change_presence(activity = discord.Activity(type = discord.ActivityType.watching, name = "out for next birthday"))
 
     client.run(token)
+    
+main_function()
