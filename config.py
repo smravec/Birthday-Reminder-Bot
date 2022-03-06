@@ -4,7 +4,7 @@ from default_class import *
 
 #START OF CONFIG - DONT EDIT ANYTHING OUTSIDE CONFIG
 
-# Config vars
+# Config variables
 
 your_discord_user_id = 0 #input your discord user id here as int
 
@@ -19,8 +19,8 @@ time_when_to_send_notifications = 10 #input here the time when you want your not
 Template1 = Human("Name", dt.date(2001, 2, 3), dt.date(2001, 4, 5))
 
 # Example how to edit the template
-# First date is birthday , the second is nameday (for the year in nameday put the same date as in birthday)
-# Dates are Year , Month, Day
+# First date is birthday, the second is nameday (for the year in nameday put the same date as in birthday)
+# Dates are Year, Month, Day
 Simon = Human("Simon", dt.date(2005, 9, 2), dt.date(2005, 10, 11))
 
 #After understanding how adding new dates work you can delete example and template above
@@ -28,4 +28,3 @@ Simon = Human("Simon", dt.date(2005, 9, 2), dt.date(2005, 10, 11))
 #END OF CONFIG - DONT EDIT ANYTHING OUTSIDE CONFIG
 
 user_dm = Human.all_instances
-
