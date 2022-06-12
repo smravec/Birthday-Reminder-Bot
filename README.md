@@ -8,5 +8,5 @@ when done with previous step clone the repo
 ```
 git clone https://github.com/smravec/Birthday-Reminder-Bot
 ```
-now follow the instructions in config.py
+now follow the instructions in config.py </br>
 when configured run the main.py file
